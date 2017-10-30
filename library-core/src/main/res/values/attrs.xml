@@ -39,13 +39,13 @@
 
     </declare-styleable>
 
-    <!-- Used for ForegroundLinearLayout -->
+    <!-- Remove to make compatible for Android 3.0 AAPT2 -->
     <!-- Refer to https://gist.github.com/chrisbanes/9091754 for original code -->
-    <declare-styleable name="ForegroundLinearLayout">
+    <!-- <declare-styleable name="ForegroundLinearLayout">
         <attr name="android:foreground" />
         <attr name="android:foregroundInsidePadding" />
         <attr name="android:foregroundGravity" />
-    </declare-styleable>
+    </declare-styleable> -->
 
     <!-- Used in card with list-->
     <declare-styleable name="card_listItem">
